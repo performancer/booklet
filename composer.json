@@ -1,0 +1,14 @@
+{
+  "name": "performancer/booklet",
+  "description": "",
+  "type": "library",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Booklet\\": "src/",
+      "MediaSite\\": "samples/MediaSite/src/"
+    }
+  }
+}

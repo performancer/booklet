@@ -1,0 +1,14 @@
+<?php
+/** @var int $id */
+/** @var string $creator */
+/** @var string $timestamp */
+/** @var string $content */
+?>
+<div class="comment" id="<?= $id ?>">
+    <div class="comment__header">
+        <span class="comment__creator-link"><?= $creator ?></span>
+        <span class="comment__timestamp"><?= $timestamp ?></span>
+        <button class="comment__actions" title="actions"></button>
+    </div>
+    <div class="comment__message"><?= $content ?></div>
+</div>
